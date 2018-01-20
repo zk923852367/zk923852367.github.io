@@ -1,0 +1,12 @@
+
+.time-box{
+	width: 600px;
+	height: 30px;
+	background: gray;
+}
+.time-range {
+	display: inline-block;
+	height: 100%;
+	width: 20px;
+	background: green;
+}
