@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = '时间轴';
+  title = 'Welcome to app!';
   time = ['2017-12-10 12:30:00', '2017-12-10 13:30:00', '2017-12-10 14:30:00'];
 }
