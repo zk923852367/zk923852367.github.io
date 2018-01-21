@@ -57,7 +57,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 var AppComponent = (function () {
     function AppComponent() {
-        this.title = 'Welcomeaaaa';
+        this.title = 'Welcome';
         this.time = ['2017-12-10 12:30:00', '2017-12-10 13:30:00', '2017-12-10 14:30:00'];
     }
     AppComponent = __decorate([
