@@ -1,11 +1,34 @@
 import { Component } from '@angular/core';
+import * as $ from 'jquery';
 
+declare var $:any;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Welcome';
-  time = ['2017-12-10 12:30:00', '2017-12-10 13:30:00', '2017-12-10 14:30:00'];
+  title = '我的博客';
+  sites = [1,2,3];
+  indexs = 0;
+  greeting(): void {  
+    console.log('aaaa')
+  }
+
+  ngOnInit(){
+  	$('.carousel').carousel();
+  }
+  prev(){
+  	$("#myCarousel").carousel('prev');
+  }
+  next(){
+  	$("#myCarousel").carousel('next');
+  }
+  select(n){
+  	$("#myCarousel").carousel(n);
+  }
+  slide(n){
+  	this.indexs = n;
+  	$("#myCarousel").carousel(n);
+  }
 }

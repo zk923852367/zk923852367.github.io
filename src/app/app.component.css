@@ -1,6 +1,19 @@
 
+.self-main-box{
+	height: 100%;
+	width: 100%;
+}
+.self-main-header{
+	text-align:center;
+	border-bottom: 1px solid gray;
+}
+.self-main-header h3{
+	padding: 0;
+	margin: 0;
+	line-height: 60px;
+}
 .time-box{
-	width: 600px;
+	width: 100%;
 	height: 30px;
 	background: gray;
 }
@@ -9,4 +22,29 @@
 	height: 100%;
 	width: 20px;
 	background: green;
+}
+.self-main-content{
+	height: calc(100% - 120px);
+}
+.self-main-content item{
+	height: 100%;
+}
+.self-main-content .carousel{
+	height: 100%;
+}
+.self-main-content .carousel-inner{
+	height: 100%
+}
+.self-main-footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 60px;
+}
+.self-main-footer button{
+	height: 30px;
 }
